@@ -47,4 +47,9 @@ public class Singly {
 }
 ```
    - **Doubly linked list** - Contains an extra pointer to connect to the previous node in the sequence. The **left pointer** contains the address of the preceding node called **predecessor**.
-   
+   - A **double linked list** is illustrated by:
+	   - Placing the address of the node above its data field
+	   - Placing the address of the preceding node in the node's left pointer field
+	   - Placing the address of the next node in the node's right pointer field
+	   - Indicating *null* in the left pointer field of the  first node and in the right pointer field of the last node.
+	- A **Circular linked list** - is a linked list in which the last node's right pointer contains the address of the first node.
