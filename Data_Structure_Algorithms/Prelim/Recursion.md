@@ -68,7 +68,7 @@ public class Test {
 ```
 
 ##### Recursion vs Iteration
-- **Iteration** - A process of repeating a set of instructions. This is also known as `looping`.
+- **Iteration** - A process of repeating a ==set of instructions==. This is also known as `looping`.
 
 | **Recursion** | **Iteration** |
 | --------- | --------- |
