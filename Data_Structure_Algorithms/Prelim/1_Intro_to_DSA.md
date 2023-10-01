@@ -1,0 +1,41 @@
+- A **Data Structure** is a `special format` for `storing` and `organizing data`.
+- Two (2) types of *data structure*:
+	- **Linear**: `Sequential Order`
+	- **None-Linear**: `Non-Sequential Order`
+- An **abstract data type** `(ADT)` is a logical description on `how data is viewed` as well as the operations that are allowed without regard to how they will be implemented.
+- Benefits of using **ADT**:
+	- `Code is easier to understand`
+	- `Implementations of ADTs can be changed without requiring changes to the program that uses the ADTs`
+	- `ADTs can be used in  future programs`
+- Two (2) parts of **ADT**:
+	- `Public` or `External` - The *data* and the *operations*
+	- `Private` or `Internal` - The *representation* and the *implementation*
+- *Abstract Data Types*:
+	- `Linked List` - Used for storing elements where each is a *separate object*.
+	- `Stack` - (Last-in, First out)
+	- `Queue` - (First-in, First out)
+	- `Tree` - *Hierarchical* nature of a structure in a *graphical form*
+	- `Priority Queue` - A *special type of queue* where elements are processed based on their order *(natural or custom)*
+	- `Heap` - A *binary tree* where the value of each of each parent node is *either higher or lower than the value of its child nodes*
+	- `Set` - A collection of elements where each element is *unique*
+	- `Map` - A set of *ordered pairs* where elements are known as `keys`  **(identifiers)** and `values` **(content)**.
+	- `Graph` - Consists of *a set of vertices* (or nodes) and *a set of edges* (relations) between the pairs of vertices.
+- The **four (4) main** operations that could be defined for each `ADT` are *initializing*, *adding*, *accessing*, and *removing of data*.
+
+###### Algorithm
+- An **algorithm** is a `step-by-step` set of instructions to be executed in sequence for solving a problem.
+- Characteristic of an algorithm:
+	- `Finiteness`: An algorithm must terminate after a specified number of steps.
+	- `Definiteness`: Each instruction has to be clear and unambiguous.
+	- `Input`: An algorithm should have zero or more well-defined data given before the algorithm begins.
+	- `Output`: An algorithm must have *one (1)* or more results, with *specified relation to the input*.
+	- `Uniqueness`: The result of each step depends on the input and/or the result of the previous step.
+- Elements of an algorithm:
+	- *Sequential operations*
+	- *Actions based on the state of a data structure*
+	- `Iteration` - Repeating an *action multiple times*
+	- `Recursion` - Occurs when a *function calls itself* once or multiple times to solve a problem.
+- Algorithm design paradigms:
+	- `Divide and Conquer`: A problem is *broken into smaller subproblems*
+	- `Greedy Algorithm`: The *optimal approach* is always chosen in solving a problem.
+	- `Dynamic Programming`: *Similar to Divide and Conquer*, except that the result of the subproblems are reused for overlapping subproblems.
