@@ -6,17 +6,19 @@
 - The *two* `2` main *queue* operations are the following:
 	- `Enqueue` - *Adds* an item into the *queue*
 	- Method in `Java:
-	```java
+```java
 	Queue queue = new LinkedList();
 	queue.offer("Kuya Rome");
 ```
-	- Method in `Python:`
-	```python
+
+
+- Method in `Python:`
+```python
 	queue = deque([])
 	queue.append("Kuya Rome")
 ```
 
-	- `Dequeue` - *Removes* the `head` of the *queue*
+- `Dequeue` - *Removes* the `head` of the *queue*
 	- Method in `Java:` `poll()`
 	- Method in `Python:` `popleft()`
 
@@ -27,7 +29,7 @@
 	- **Test whether queue is empty**
 		- For `Java`, use the `isEmpty()` method.
 		- For `Python`, use the `if not` condition, followed by the queue name and a colon.
-		```python
+```python
 		queue = deque([])
 		if not queue:
 			print("Queue is empty")
@@ -36,6 +38,7 @@
 ###### Other Queue Methods
 - `Java` methods `offer()`, `poll()`, and `peek()` do not throw exceptions. The methods `add()`, `remove()`, and `element()` perform the same tasks but throw exceptions.
 - Other methods that can be used for both *queues* and *lists* are the following:
+
  
 | `Function` | `Java` | `Python` |
 | --- | --- | --- |
